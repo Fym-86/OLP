@@ -10,22 +10,41 @@ images文件夹保存有图片文件
 //第三步，添加远程仓库
 //第四步，拉取远程仓库内容
 //第五步，添加上游，实时更新
+
+```git
 git init
 git branch -m master main
 git remote add main git@github.com:fym1011/OLP.git
 git pull git@github.com:fym1011/OLP.git main
 git remote add upstream git@github.com:fym1011/OLP.git
+```
+
 //上面的五步直接复制粘贴即可
 
 //后面的一步一步走
 
 //把所有修改加入缓冲区
+
+```
 git add .
+```
+
 //提交缓冲区的内容到本地仓库
+
+```
 git commit -m "说下自己干了什么东西"
+```
+
 //将本地仓库的修改推送到远程仓库
+
+```
 git push git@github.com:fym1011/OLP.git main
+```
 
 //更新同步远程仓库
+
+```
 git fetch upstream
 git merge upstream/main
+```
+
