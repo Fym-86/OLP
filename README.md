@@ -17,7 +17,7 @@ images文件夹保存有图片文件
 
 第五步，添加上游，实时更新
 
-```git
+```
 git init
 git branch -m master main
 git remote add main git@github.com:fym1011/OLP.git
