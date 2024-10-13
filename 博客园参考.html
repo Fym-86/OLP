@@ -1,0 +1,275 @@
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      property="og:description"
+      content="专注于为开发者服务，帮助开发者用代码改变世界"
+    />
+    <meta
+      property="og:image"
+      content="https://assets.cnblogs.com/logo_square.png"
+    />
+    <title>博客园 - 开发者的网上家园</title>
+    <meta
+      name="keywords"
+      content="开发者,程序员,博客园,程序猿,程序媛,极客,码农,编程,代码,软件开发,开源,IT网站,技术社区,Developer,Programmer,Coder,Geek,Coding,Code"
+    />
+    <meta
+      name="description"
+      content="博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。博客园的使命是帮助开发者用代码改变世界。"
+    />
+    <link rel="canonical" href="https://www.cnblogs.com" />
+    <link rel="apple-touch-icon" href="//assets.cnblogs.com/logo_square.png" />
+    <link
+      rel="shortcut icon"
+      href="//assets.cnblogs.com/favicon.svg?v=2"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="css/博客园参考.css" />
+    <link
+      rel="Stylesheet"
+      type="text/css"
+      href="/css/aggsite-new.min.css?v=8mtvCiMbeGzNfZNr7slzCofpamzuGb2XuJUFEPgf10M"
+    />
+    <link
+      rel="Stylesheet"
+      type="text/css"
+      href="/css/aggsite-mobile-new.min.css?v=ZtkzLouqdQiWcIGuCP0F0hEOnf69tjyJLdWb3z-GTnM"
+      media="only screen and (max-width: 767px)"
+    />
+    <link
+      id="RSSLink"
+      title="RSS"
+      type="application/rss+xml"
+      rel="alternate"
+      href="http://feed.cnblogs.com/blog/sitehome/rss"
+    />
+    <script
+      src="//assets.cnblogs.com/scripts/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn-www.cnblogs.com/js/aggsite-new.min.js?v=ZuZYeH8JbcTacF7FmD6vWj4g4YMW_SXGHQ6t6-0DWEw"></script>
+  </head>
+
+  <div id="top_nav" class="navbar border-none">
+    <nav id="nav_main" class="navbar-main">
+      <ul id="nav_left" class="navbar-list navbar-left">
+        <li class="navbar-branding">
+          <a
+            href="https://www.cnblogs.com/"
+            title="开发者的网上家园"
+            role="banner"
+          >
+            <img
+              src="/images/logo.svg?v=2SMrXdIvlZwVoB1akyXm38WIKuTHVqvGD0CweV-B6cY"
+              alt="博客园Logo"
+            />
+          </a>
+        </li>
+        <li><a href="https://cnblogs.vip/">会员</a></li>
+        <li><a href="https://cnblogs.vip/store">周边</a></li>
+        <li><a href="https://cnblogs.vip/donate">捐助</a></li>
+        <li><a href="https://news.cnblogs.com/">新闻</a></li>
+        <li><a href="https://q.cnblogs.com/">博问</a></li>
+        <li><a href="https://ing.cnblogs.com/">闪存</a></li>
+        <li><a href="https://edu.cnblogs.com/">班级</a></li>
+        <li><a href="https://www.cnblogs.com/cmt/p/18341478">赞助商</a></li>
+        <li class="dropdown">
+          <div class="dropdown-button">
+            <img src="/images/aggsite/pulldown-light.svg" />
+          </div>
+          <div class="dropdown-menu">
+            <a id="nav_legacy" href="/legacy">怀旧</a>
+            <a href="https://home.cnblogs.com/">园子</a>
+            <a href="https://group.cnblogs.com/">小组</a>
+            <a href="https://wz.cnblogs.com/">收藏</a>
+            <a href="https://zzk.cnblogs.com/">找找看</a>
+          </div>
+        </li>
+      </ul>
+      <ul id="nav_right" class="navbar-list navbar-right">
+        <li>
+          <form
+            id="zzk_search_enhanced"
+            style="display: none"
+            class="navbar-search dropdown"
+            action="https://zzk.cnblogs.com/s"
+            method="get"
+            role="search"
+          >
+            <input
+              name="w"
+              id="zzk_search_input"
+              placeholder="代码改变世界"
+              type="search"
+              tabindex="3"
+              autocomplete="off"
+            />
+            <button
+              id="zzk_search_button"
+              onclick="window.navbarSearchManager.triggerActiveOption()"
+            >
+              <img
+                id="search_icon"
+                class="focus-hidden"
+                src="//assets.cnblogs.com/icons/search.svg"
+                alt="搜索"
+              />
+              <img
+                class="hidden focus-visible"
+                src="//assets.cnblogs.com/icons/enter.svg"
+                alt="搜索"
+              />
+            </button>
+            <ul
+              id="navbar_search_options"
+              class="dropdown-menu quick-search-menu"
+            >
+              <li
+                tabindex="0"
+                class="active"
+                onclick="zzkSearch(event, document.getElementById('zzk_search_input').value)"
+              >
+                <div class="keyword-wrapper">
+                  <img src="//assets.cnblogs.com/icons/search.svg" alt="搜索" />
+                  <div class="keyword"></div>
+                </div>
+                <span class="search-area">所有博客</span>
+              </li>
+              <li id="navbar_self_search" tabindex="2">
+                <div class="keyword-wrapper">
+                  <img src="//assets.cnblogs.com/icons/search.svg" alt="搜索" />
+                  <div class="keyword"></div>
+                </div>
+                <span class="search-area">我的博客</span>
+              </li>
+            </ul>
+          </form>
+          <form
+            id="zzk_search"
+            class="navbar-search"
+            action="https://zzk.cnblogs.com/s"
+            method="get"
+            role="search"
+          >
+            <input
+              name="w"
+              id="zzk_search_input"
+              placeholder="代码改变世界"
+              type="text"
+              autocomplete="off"
+              tabindex="3"
+            />
+            <button type="submit" id="zzk_search_button">
+              <img src="/images/aggsite/search.svg" alt="搜索" />
+            </button>
+          </form>
+        </li>
+        <li id="navbar_login_status" class="navbar-list">
+          <a
+            class="navbar-user-info navbar-blog"
+            href="https://i.cnblogs.com/EditPosts.aspx?opt=1"
+            alt="写随笔"
+            title="写随笔"
+          >
+            <img
+              id="new_post_icon"
+              class="navbar-icon"
+              src="/images/icons/newpost.svg"
+              alt="写随笔"
+            />
+          </a>
+          <a
+            id="navblog-myblog-icon"
+            class="navbar-user-info navbar-blog"
+            href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx"
+            alt="我的博客"
+            title="我的博客"
+          >
+            <img
+              id="myblog_icon"
+              class="navbar-icon"
+              src="/images/icons/myblog.svg"
+              alt="我的博客"
+            />
+          </a>
+          <a
+            class="navbar-user-info navbar-message navbar-icon-wrapper"
+            href="https://msg.cnblogs.com/"
+            alt="短消息"
+            title="短消息"
+          >
+            <img
+              id="msg_icon"
+              class="navbar-icon"
+              src="/images/icons/message.svg?v=9K5-cNsbJbeitPFRa_xhJlz37hiIsm4mu7-MMPgi9LQ"
+              alt="短消息"
+            />
+            <span id="msg_count" style="display: none"></span>
+          </a>
+          <a
+            id="navbar_lite_mode_indicator"
+            data-current-page="aggsite"
+            style="display: none"
+            href="javascript:void(0)"
+            alt="简洁模式"
+            title="简洁模式启用，您在访问他人博客时会使用简洁款皮肤展示"
+          >
+            <img
+              class="navbar-icon"
+              src="/images/icons/lite-mode-on.svg"
+              alt="简洁模式"
+            />
+          </a>
+          <div id="user_info" class="navbar-user-info dropdown">
+            <a class="dropdown-button" href="https://home.cnblogs.com/">
+              <img
+                id="user_icon"
+                class="navbar-avatar"
+                src="/images/icons/avatar-default.svg"
+                alt="用户头像"
+              />
+            </a>
+            <div class="dropdown-menu" id="navbar_menu">
+              <a
+                id="navblog-myblog-text"
+                href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx"
+                >我的博客</a
+              >
+              <a href="https://home.cnblogs.com/">我的园子</a>
+              <a href="https://account.cnblogs.com/settings/account"
+                >账号设置</a
+              >
+              <a
+                href="javascript:void(0)"
+                id="navbar_lite_mode_toggle"
+                title="简洁模式会使用简洁款皮肤显示所有博客"
+              >
+                简洁模式
+                <img
+                  id="navbar_lite_mode_on"
+                  src="/images/lite-mode-check.svg"
+                  class="hide"
+                /><span id="navbar_lite_mode_spinner" class="hide">...</span>
+              </a>
+              <a href="javascript:void(0)" onclick="account.logout();"
+                >退出登录</a
+              >
+            </div>
+          </div>
+          <a class="navbar-anonymous" href="https://account.cnblogs.com/signup"
+            >注册</a
+          >
+          <a
+            class="navbar-anonymous"
+            href="https://account.cnblogs.com/signin?returnUrl=https://www.cnblogs.com/"
+            >登录</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</html>
