@@ -61,7 +61,3 @@ git push git@github.com:fym1011/OLP.git main
 git fetch upstream
 git merge upstream/main
 ```
-
-git add .
-git commit -m "添加参考案例"
-git push git@github.com:fym1011/OLP.git main
