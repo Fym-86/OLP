@@ -1,4 +1,3 @@
-
 .footer {
     background-color: #f8f8f8; /* 页脚背景颜色 */
     padding: 20px; /* 内边距 */
@@ -31,10 +30,17 @@
 
 .footer a:hover {
     text-decoration: underline; /* 鼠标悬停时添加下划线 */
+    
 }
 
-.footer span {
-    display: block; /* 每个span单独占一行 */
+.footer .contact {
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 水平居中 */
     color: #555; /* 其他信息文字颜色 */
     font-size: 12px; /* 字体大小 */
+    margin: 10px 0; /* 外边距 */
+}
+
+.footer .contact > span {
+    margin: 0 15px; /* 列表项之间的间距 */
 }
