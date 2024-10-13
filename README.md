@@ -61,3 +61,7 @@ git push git@github.com:fym1011/OLP.git main
 git fetch upstream
 git merge upstream/main
 ```
+
+git add .
+git commit -m "修改页脚"
+git push git@github.com:fym1011/OLP.git main
