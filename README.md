@@ -51,7 +51,7 @@ git push git@github.com:fym1011/OLP.git main
 
 ```
 git add .
-git commit -m "说下自己干了什么东西，此处提交时修改下"
+git commit -m "提交信息"
 git push git@github.com:fym1011/OLP.git main
 ```
 
